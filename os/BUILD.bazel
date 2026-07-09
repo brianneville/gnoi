@@ -29,8 +29,8 @@ proto_library(
     import_prefix = "github.com/openconfig/gnoi",
     deps = [
         "//bootconfig:bootconfig_proto",
-        "//types:types_proto",
         "//common:common_proto",
+        "//types:types_proto",
     ],
 )
 
@@ -56,8 +56,8 @@ go_proto_library(
     proto = ":os_proto",
     deps = [
         "//bootconfig",
-        "//types",
         "//common",
+        "//types",
     ],
 )
 
